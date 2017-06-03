@@ -1,10 +1,8 @@
 package ru.lesson.lessons;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 import static org.junit.Assert.*;
 
@@ -33,7 +31,7 @@ public class ClientTest {
         Client client = new Client();
         ArrayList<Pet> list = new ArrayList<Pet>();
         list.add(new Pet("Cat"));
-        client.addPets(list);
+        client.setPets(list);
         assertEquals(list, client.getPets());
     }
 

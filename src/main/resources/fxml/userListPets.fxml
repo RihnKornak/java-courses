@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox minHeight="300.0" minWidth="350.0" prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.lesson.lessons.controllers.UserListPetsController">
+   <children>
+      <AnchorPane minHeight="200.0" minWidth="310.0" prefHeight="300.0" prefWidth="350.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TableView fx:id="PetTab" prefHeight="280.0" prefWidth="310.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn fx:id="petName" prefWidth="155.0" text="Кличка" />
+                <TableColumn fx:id="master" prefWidth="155.0" text="Хозяин" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </AnchorPane>
+      <AnchorPane prefHeight="25.0" prefWidth="304.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox layoutX="-8.0" layoutY="-10.0" minHeight="30.0" minWidth="310.0" prefHeight="50.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <Button fx:id="BackButton" alignment="CENTER" minHeight="30.0" minWidth="110.0" mnemonicParsing="false" text="Назад" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0">
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="5.0" right="5.0" top="20.0" />
+                     </HBox.margin>
+                  </AnchorPane>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <Button fx:id="MainMenuButton" alignment="CENTER" minHeight="30.0" minWidth="110.0" mnemonicParsing="false" text="Главное меню" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="5.0" right="5.0" top="20.0" />
+                     </HBox.margin>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </AnchorPane>
+   </children>
+</VBox>

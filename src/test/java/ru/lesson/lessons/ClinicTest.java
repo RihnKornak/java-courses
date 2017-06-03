@@ -18,40 +18,40 @@ public class ClinicTest {
      * Test checks how will work method, if searching for name people have different quantity of pets
      * @throws Exception
      */
-    @Test
-    public void testSearchByClientWith2Args() throws Exception {
-        Client test = new Client("Vasa", new NoPet());
-        assertEquals(result, clinic.searchByClient(test));
-    }
+//    @Test
+//    public void testSearchByClientWith2Args() throws Exception {
+//        Client test = new Client("Vasa", new NoPet());
+//        assertEquals(result, clinic.searchByClient(test));
+//    }
 
     /** Test checks how will work method, if the field of search will be empty
      * @throws Exception
      */
-    public void testSearchByClientWithNoName() throws Exception {
-
-        Client test = new Client(null, new NoPet());
-        assertEquals(new NoClient(), clinic.searchByClient(test));
-    }
+//    public void testSearchByClientWithNoName() throws Exception {
+//
+//        Client test = new Client(null, new NoPet());
+//        assertEquals(new NoClient(), clinic.searchByClient(test));
+//    }
 
     /**
      * This test checks how works method, which search Client by his pet
      * @throws Exception
      */
-    @Test
-    public void searchByPet() throws Exception {
-        Pet pet = new Pet("Dog. Hot Dog");
+//    @Test
+//    public void searchByPet() throws Exception {
+//        Pet pet = new Pet("Dog. Hot Dog");
+//
+//        assertEquals(result, clinic.searchByPet(pet));
+//    }
 
-        assertEquals(result, clinic.searchByPet(pet));
-    }
-
-    @Test
-    public void testRemove() throws Exception {
-        Client willBeRemoved = new Client("Test", new Pet("TestPet"));
-        Clinic clin = new Clinic(willBeRemoved);
-         clin.remove(willBeRemoved);
-         ArrayList<Client> res = clin.getClients();
-         ArrayList<Client> zero = new ArrayList<Client>();
-        assertEquals(zero, res);
-    }
+//    @Test
+//    public void testRemove() throws Exception {
+//        Client willBeRemoved = new Client("Test", new Pet("TestPet"));
+//        Clinic clin = new Clinic(willBeRemoved);
+//         clin.remove(willBeRemoved);
+//         ArrayList<Client> res = clin.getClients();
+//         ArrayList<Client> zero = new ArrayList<Client>();
+//        assertEquals(zero, res);
+//    }
 
 }
