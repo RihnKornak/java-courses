@@ -6,11 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lessons" />
+        <module name="clinic-logic" />
+        <module name="clinic-web" />
+        <module name="se" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="clinic" target="1.5" />
+      <module name="clinic-logic" target="1.5" />
+      <module name="clinic-web" target="1.5" />
+      <module name="cw" target="1.5" />
+      <module name="javaweb" target="1.7" />
       <module name="lessons" target="1.5" />
+      <module name="lessons (1)" target="1.5" />
+      <module name="lessons (2)" target="1.5" />
+      <module name="se" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

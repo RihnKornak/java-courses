@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lessons.iml" filepath="$PROJECT_DIR$/lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic.iml" filepath="$PROJECT_DIR$/clinic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se/clinic-logic.iml" filepath="$PROJECT_DIR$/se/clinic-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-web/clinic-web.iml" filepath="$PROJECT_DIR$/clinic-web/clinic-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
+      <module fileurl="file://D:\Projects\java-courses\lessons.iml" filepath="D:\Projects\java-courses\lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/se/se.iml" filepath="$PROJECT_DIR$/se/se.iml" />
     </modules>
   </component>
 </project>
